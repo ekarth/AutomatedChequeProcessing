@@ -4,7 +4,7 @@ import pandas as pd
 import os
 # from langdetect import detect
 # from textblob import TextBlob
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'D:\\Projects\\chequeprocessing.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '../chequeprocessing.json'
 def detect_text_in_image(img_url):
     '''Detects document features in the file located in Google Cloud Storage.'''
 
